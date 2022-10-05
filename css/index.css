@@ -1,0 +1,359 @@
+
+
+*{
+    box-sizing: border-box; 
+    max-width: 100%;
+    text-decoration:none;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color:gray !important;
+    margin:0;
+}
+
+.body-1{
+    background-color: #fff;
+}
+
+
+
+
+.menu{
+    width:30px;
+    height:30px;
+   /* background-color:#d3d3d3; */
+    border-radius:4px;
+    margin-top:22px;
+    margin-right:30px;
+    position:absolute;
+    left:35px;
+}
+
+.star{
+    width:20px;
+    height:20px;
+    border:1px solid #ff8c00;
+    border-radius: 50px;
+    background-color: #ff8c00;
+    position:relative;
+    top:30px;
+    left:4px;
+}
+
+.star-logo{
+    color:#fff;
+}
+
+.search-glasss{
+    position: relative;
+    left:70px;
+    color:grey;
+    font-size:20px;
+}
+.hamburger-menu{
+    width:20px;
+    height:2.5px;
+    background-color:black;
+    margin:6px 0;
+    margin-left:4.2px;
+}
+
+.logo{
+    position:relative;
+    left:56px;
+}
+
+.btn{
+    width:120px;
+    height:50px;
+    border:0px;
+    background-color: #ff8c00;
+    border-radius: 5px;
+    margin-top:20px;
+    color:#ffff;
+    cursor:pointer;
+}
+.header{
+    display:flex;
+    border:2px solid red;
+    height:100px;
+    justify-content: space-evenly;
+}
+
+.input{
+    width: 700px;
+    height:50px;
+    border: 1px solid grey;
+    margin-top:20px;
+    border-radius: 6px;
+}
+
+.input[value^="Search products, brands and categories"]{
+   text-align: center;
+   font-size: 20px;
+   color: grey;
+}
+.first-section{
+    display:flex;
+    width:100%
+}
+
+.box{
+    border:0.4px solid #d3d3d3;
+    width:30%;
+    height:700px;
+}
+.img{
+    width:50px;
+    height:50px;
+    display:flex;
+}
+
+.user-name .user-icon{
+    position:relative;
+    top:34px;
+    right:35px;
+}
+
+.user-icon{
+    font-size: 20px;
+}
+
+.help .help-icon{
+    position: relative;
+    top:34px;
+    right:30px;
+}
+
+.help-icon{
+    font-size: 20px;
+}
+
+.cart .cart-icon{
+    position: relative;
+    top:34px;
+    right:30px;
+}
+
+.cart-icon{
+    font-size:20px;
+}
+
+
+.top-links{
+margin-top:20px;
+}
+
+.top-links a{
+    text-decoration: none;
+    font-size:16px;
+    color: black;
+    padding:8px;
+}
+
+.top-links .ear-strong-base{
+    color:gray;
+}
+
+.box{
+    margin-top: 25px;
+    margin-left:45px
+}
+
+
+.first-section .first-box{
+    width:28%;
+    height:700px;
+}
+
+.first-section .second-box{
+    width:50%;
+    height:700px;
+}
+
+.first-section .third-box{
+    width:25%;
+    height:700px;
+    position: relative;
+    right:33px;
+}
+
+.first-box .img1{
+    height:400px;
+    position:relative;
+    left:80px;
+}
+
+.first-box hr{
+    color: #d3d3d3;
+    border:0.5px solid #d3d3d3;
+    width:95%;
+}
+
+.first-box .img{
+    margin-left:12px;
+}
+
+.first-box .txt-1{
+    margin-left:12px;
+}
+
+.firstbox-icon{
+    width:30px;
+    height:30px;
+    border: 1px solid #000;
+    padding:7.5px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-left:10px;
+}
+.second-box{
+    position:relative;
+    right:44px;
+}
+.second-box .p1{
+    font-size: 22px;
+}
+
+.second-box .p3 span{
+    padding-left:3px;
+    color: #d3d3d3d0;
+}
+
+.second-box .second-h2{
+    font-size:20px;
+    color:grey;
+    font-weight:400;
+}
+
+.second-box .discount-txt{
+    text-decoration: line-through;
+}
+.second-box h2 .text14{
+    background-color: #fed8b1;
+    font-weight: 400;
+    font-size:20px;
+    margin-left:4px;
+    color:#ff8c00;
+
+}
+
+.second-box .btn-2{
+    width:90%;
+    height:50px;
+    background-color: #ff8c00;
+    border:0px;
+    margin-left:5%;
+    font-weight: 600;
+    font-size: 17px;
+    color:#fff;
+    border-radius:4px;
+}
+
+.logo2{
+    width:25px;
+    height:25px;
+    border: 1px solid #d3d3d3;
+    color:white;
+    background:orange;
+    padding:2.5px;
+    border-radius: 50%;
+    margin-left:2px;
+
+}
+
+
+.p-5{
+    margin-left: 5px;
+}
+
+.p-6{
+    margin-left:5px;
+    color:blue;
+}
+
+.shield{
+    margin-left:10px;
+    font-size:20px;
+}
+
+.p-7{
+    margin-left: 5px;
+    color:blue;
+}
+
+.jumia-pay{
+    margin-left:35px;
+    position:relative;
+    bottom:10px;
+    color: blue;
+}
+
+.third-box .tbox{
+    font-size: 20px;
+    margin-left:5px;
+}
+
+.third-box .tbox1{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top:5px;
+    
+
+}
+
+.form{
+    width:95%;
+    height:50px;
+    margin-left: 10px;
+    margin-bottom:3px;
+}
+
+
+.details{
+    margin-left:100px;
+    color:blue;
+    font-size: 16px;
+}
+
+.door-delivery{
+    margin-left:10px;
+    margin-bottom:12px;
+}
+
+.truck{
+    border:0.5px solid #d3d3d3;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+.door-delivery2{
+    margin-left:50px;
+}
+
+.pick-up{
+    margin-left:10px;
+    padding: 5px;
+    padding-right: 7px;
+}
+
+.hand{
+    border:0.5px solid #d3d3d3;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+.pick-up2{
+    margin-left:50px;
+}
+.policy{
+    margin-left:50px;
+    margin-bottom:12px;
+}
+
+.return-policy{
+    margin-left:50px;
+}
+
